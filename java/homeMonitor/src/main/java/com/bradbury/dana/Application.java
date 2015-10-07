@@ -38,8 +38,12 @@ public class Application implements CommandLineRunner{
 		// save a couple of customers
 		repository.save(new Customer("Alice", "Smith"));
 		repository.save(new Customer("Bob", "Smith"));
-
 		System.out.println("repo setup, try to fire a GCM message");
+		
+		//test consuming GA data
+		GAUtility gaUtil = new GAUtility();
+		gaUtil.test();
+		
 		//test the push service
 		Sender sender = new Sender(GCM_API_KEY);
 

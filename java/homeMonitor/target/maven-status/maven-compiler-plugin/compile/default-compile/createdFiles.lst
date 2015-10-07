@@ -1,6 +1,5 @@
-hello\Application.class
-hello\CustomerRepository.class
-hello\UserController.class
-hello\Customer.class
-hello\Greeting.class
-hello\GreetingController.class
+com\bradbury\dana\Customer.class
+com\bradbury\dana\CustomerRepository.class
+com\bradbury\dana\GAUtility.class
+com\bradbury\dana\UserController.class
+com\bradbury\dana\Application.class

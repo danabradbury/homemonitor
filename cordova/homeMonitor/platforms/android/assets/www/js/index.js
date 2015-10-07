@@ -44,6 +44,20 @@ var app = {
         push.on('registration', function(data) {
             console.log("registration event");
             document.getElementById("regId").innerHTML = data.registrationId;
+			getUrl = "http://bradburyengineering.com:8080/create?firstname=tommy&lastname=small&registrationId=12323234567";
+			alert(getUrl)
+			$.get( getUrl, function( data ) {
+			  alert( "Data returned: " + data );
+			}).done(function() {
+				alert( "second success" );
+			  })
+			  .fail(function() {
+				alert( "error" );
+			  })
+			  .always(function() {
+				alert( "finished" );
+			  });
+			alert('get called');
             console.log(JSON.stringify(data));
         });
 
