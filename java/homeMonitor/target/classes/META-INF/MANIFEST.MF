@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: homeMonitor
-Implementation-Version: 0.1.0
-Built-By: Dana
-Implementation-Vendor-Id: com.bradbury.dana
-Build-Jdk: 1.8.0_60
-Created-By: Maven Integration for Eclipse
-Implementation-Vendor: Pivotal Software, Inc.
-
